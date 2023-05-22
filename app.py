@@ -5,5 +5,12 @@ print(type(a),type(b))
 
 #Check - Palindrome
 
-print(a==a[::-1]) # 'radar' == 'radar' - True
-print(b==b[::-1]) # 'janu' == 'unaj' - False
+if a==a[::-1]:
+    print(a+ ' is a palindrome')
+else:
+    print(a+ ' is not a polindrome')
+
+if b==b[::-1]:
+    print(b + ' is a polindrome')
+else:
+    print(b + ' is not a palindrome')
